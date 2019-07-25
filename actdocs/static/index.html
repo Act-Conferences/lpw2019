@@ -12,30 +12,23 @@ The London Perl Workshop (LPW) is a free one-day technical conference in Central
 		<li><b>WHERE:</b> David Game College, 31 Jewry St, London EC3N 2ET (<a href="#map">map</a>)</li>
     </ul>
 </p>
-<p>Please save the date and register, we hope to see you there!</p>
+
+<p>Run by volunteers from the London Perl Community, LPW covers Perl 5, Perl 6 and other languages, technologies and topics. Last year we had talks on Go, BDD and mentoring developers to name just a few.<p> 
+
+<p>The LPW is an inclusive event and we would love to have you attend, whether this is your first time learning about Perl, or your 14th workshop. We encourage attendees and speakers from people of any age, background or circumstance, and we are open to receiving proposals for talks on any subject you think your fellow attendees will find interesting.</p>
+
+<p>Further news will be posted here and to our <a href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml">feed</a>.
+</p>
 
 <h2>How can I attend, or present a talk?</h2>
-<p>
-To attend please <a href="[% make_uri('register') %]">create a new user account</a> or <a href="[% make_uri('login') %]">log in</a> and then <a href="[% make_uri('register') %]">register</a>.
-</p>
 
-<p>
-To speak please <a href="[% make_uri('newtalk') %]">submit your proposal</a> as soon as possible - the earlier you submit, the more likely your talk is to be accepted.
-</p>
+<p>To attend is free, all you need to do is <a href="[% make_uri('register') %]">create a new user account</a> or <a href="[% make_uri('login') %]">log in</a> and then <a href="[% make_uri('register') %]">register</a>.</p>
 
-<p>We welcome the submission of talks, discussions, presentations and workshops about Perl 5, Perl 6, other languages and supporting technologies. It could be something you've been working on, or just something interesting. The Workshop is a chance for us all to learn from each other.</p>
+<p>To speak please <a href="[% make_uri('newtalk') %]">submit your proposal</a> as soon as possible. The earlier you submit, the more likely your talk is to be accepted.</p>
 
 <h2>Sponsors</h2>
-<p>If you would like to sponsor the London Perl Workshop then please do not hesitate to contact <a href="[% make_uri('team.html') %]">the organisers</a> and they will help you with your proposal.</p>
+<p> The LPW is reliant on the generosity of our sponsors to run great community event at no cost to attendees. If you or your company would like to sponsor the London Perl Workshop then please see our <a href="[% make_uri('sponsoring.html') %]">sponsorship information</a> and do not hesitate to contact <a href="[% make_uri('team.html') %]">the organisers</a> if you have any questions.</p>
 
-<h2>Submissions</h2>
-<p>Speakers are invited to talk on any subject. We will accept talks from people of any age, background or circumstance, the London Perl Workshop is an inclusive event and we would love to have you attend.</p>
-
-<p>This year we hope to have access to three Workshop rooms and would like to run as many workshops as possible. We would also love to refresh the skills of those wishing to engage with the latest developments in the Perl and other languages. If you wish to submit a workshop please use the same submission form as the talks, please note that workshops will be 60, 120 or 240 minutes in length.</p>
-
-<p>
-Watch this space for updates, or check the <a href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml">feed</a>.
-</p>
 
 [% news = global.news(4);
    IF news.size > 3;
