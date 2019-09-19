@@ -4,6 +4,16 @@
         <p><small><a href="[% make_uri_info('sponsors.html') %]">Read more about sponsoring LPW2019</a></small></p>
     </div>
 
+<!-- Platinum -->
+<div class="col-xs-12" style="margin-bottom: 1em;"><strong>Platinum:</strong></div>
+
+    <div class="col-xs-12 text-center">
+        <a href="https://www.booking.com/">
+            <img src="[% make_uri_info('images/logos/scaled/booking.png') %]" border="0" alt="Booking.com" class="img-responsive" style="margin-bottom: 3em;">
+        </a>
+    </div>
+
+</div> 
 
 <!-- Gold -->
 <div class="col-xs-12" style="margin-bottom: 1em;"><strong>Gold:</strong></div>
@@ -64,7 +74,6 @@
     <ul>
         <li><a href="https://oleeo.com/">Oleeo</a></li>
         <li><a href="http://opusvl.com/">OpusVL</a></li>
-        <li><a href="http://www.booking.com/">Booking.com</a></li>
     </ul>
 -->
 <!--
