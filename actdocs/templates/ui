@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'style.css') %]?v=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="[% make_uri_info('js', 'jquery-3.4.1.slim.min.js') %]"></script>
-    <title>[% global.conference.name %][% IF title %] | [% title  %][% END %]</title>
+    <title>[% global.conference.name %] | [% IF title; title; ELSE %]Perl workshop and training in London[% END %]</title>
 [% PROCESS custom/jsonld %]
   </head>
   <body>
