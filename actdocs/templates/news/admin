@@ -17,11 +17,11 @@
                 [% FOREACH lang = n.items.keys.sort %]
                 <div>
                   <b>[% global.config.languages.$lang.name %]</b>:
-                  <a href="[% make_uri('newsedit', 'news_id', n.news_id) %]">[% n.items.$lang.title %]</a>
+                  <a href="[% make_uri('newsedit', 'news_id', n.news_id) %]">[% n.$lang.title %]</a>
                 </div>
                 [% END %]
               [% ELSE %]
-                <a href="[% make_uri('newsedit', 'news_id', n.news_id) %]">[% n.items.$lang.title %]</a>
+                <a href="[% make_uri('newsedit', 'news_id', n.news_id) %]">[% n.title %]</a>
               [% END %]
             </td>
             <td align="center">[% '<i class="fa fa-check"></i>' IF n.published %]</td>
