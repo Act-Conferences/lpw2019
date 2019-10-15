@@ -20,7 +20,8 @@
                   <a href="[% make_uri('newsedit', 'news_id', n.news_id) %]">[% n.items.$lang.title %]</a>
                 </div>
                 [% END %]
-              [% ELSE %]
+              [% ELSE;
+                lang = n.items.keys.0 %]
                 <a href="[% make_uri('newsedit', 'news_id', n.news_id) %]">[% n.items.$lang.title %]</a>
               [% END %]
             </td>
