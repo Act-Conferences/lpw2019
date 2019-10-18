@@ -25,6 +25,9 @@
       [% END %]
     [% END %]
 
+      <li class="divider"></li>
+      <li><a href="[% make_uri('lunch') %]">Lunch options</a>
+
     [% IF global.request.user.is_talks_admin %]
       <li class="divider"></li>
       <li><a href="[% make_uri('tracks') %]">{{Tracks}}</a></li>
